@@ -1,15 +1,15 @@
-Algoritmo "Média"
+Algoritmo "MÃ©dia"
 
 Var
 
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    media, nota1, nota2 : real
 
 Inicio
 
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
-   escreval("Bem vindo ao programa, comece digitando sua média. :D")
+   escreval("Bem vindo ao programa, comece digitando suas notas. :D")
    escreval("Digite a primeira nota: ")
    leia(nota1)
 
@@ -19,15 +19,15 @@ Inicio
    media <- (nota1 + nota2) / 2
 
    se (media >= 7) entao
-      escreva ("O aluno está aprovado")
+      escreva ("O aluno estÃ¡ aprovado")
 
    senao
       se (media < 3 ) entao
-         escreva ("O aluno está reprovado")
+         escreva ("O aluno estÃ¡ reprovado")
 
       senao
          se ( 3 <= media < 7) entao
-            escreva ("O aluno está na final")
+            escreva ("O aluno estÃ¡ na final")
 
          fimse
       fimse
