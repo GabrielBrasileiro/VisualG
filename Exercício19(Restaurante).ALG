@@ -2,9 +2,8 @@ Algoritmo "Restaurante"
 
 Var
 
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    
-   nproduto: inteiro
    produtos: vetor [1..6] de inteiro
    nome: vetor [1..6] de caracter
    qtd: vetor [1..6] de real
@@ -14,38 +13,38 @@ Var
 
 Inicio
 
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
    escreval("Bem vindo ao resturante X")
 
-   escreval("Especificação   --- código --- preço")
+   escreval("EspecificaÃ§Ã£o   --- cÃ³digo --- preÃ§o")
    escreval("")
    escreval("Cachorro Quente ---   100  --- 1,20 R$")
    escreval("Bauru simples   ---   101  --- 1,30 R$")
    escreval("Bauru com ovo   ---   102  --- 1,50 R$")
-   escreval("Hambúrger       ---   103  --- 1,20 R$")
+   escreval("HambÃºrger       ---   103  --- 1,20 R$")
    escreval("Cheeseburguer   ---   104  --- 1,30 R$")
    escreval("Refrigerante    ---   105  --- 1,00 R$")
    escreval("")
 
-   escreval("Digite quantos produtos distindo irá comprar: ")
+   escreval("Digite quantos produtos distindo irÃ¡ comprar: ")
    leia(nproduto)
 
    se (nproduto < 1) ou (nproduto > 5) entao
 
-      escreval("Número de código invalido")
+      escreval("NÃºmero de cÃ³digo invalido")
       fimalgoritmo
 
    fimse
 
    para i de 1 ate nproduto faca
 
-      escreval("Digite o código do produto: ", i, ": ")
+      escreval("Digite o cÃ³digo do produto: ", i, ": ")
       leia(cod[i])
 
       se  (cod[i] < 100) ou (cod[i] > 105) entao
 
-         escreval("Número de produto inválido!")
+         escreval("NÃºmero de produto invÃ¡lido!")
          fimalgoritmo
 
       fimse
@@ -88,7 +87,7 @@ Inicio
 
    limpatela
    
-   escreval("Nome":20, "Preço":15, "Quantidade":15, "Total":10)
+   escreval("Nome":20, "PreÃ§o":15, "Quantidade":15, "Total":10)
 
    para i de 1 ate nproduto faca
 
@@ -98,7 +97,7 @@ Inicio
 
    escreval("")
    escreval("Conta = ", total, " R$")
-   escreval("O valor do garçom é: ", total * 0.1, " R$")
-   escreval("O valor total com o garçom é: ", total + (total * 0.1), " R$")
+   escreval("O valor do garÃ§om Ã©: ", total * 0.1, " R$")
+   escreval("O valor total com o garÃ§om Ã©: ", total + (total * 0.1), " R$")
 
 Fimalgoritmo
